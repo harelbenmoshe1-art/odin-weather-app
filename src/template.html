@@ -4,11 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Weather App</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #weather-data-container {
+      margin-top: 1rem;
+      padding-left: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+  </style>
 </head>
 <body>
   <form id="weather-form">
     <input id="location-input" placeholder="Enter location: " required>
     <button>Get Weather Data</button>
   </form>
+
+  <div id="weather-data-container"></div>
 </body>
 </html>
